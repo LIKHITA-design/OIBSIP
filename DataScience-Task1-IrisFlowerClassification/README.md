@@ -1,98 +1,82 @@
- # Iris Flower Classification 🌸
+# 🌸 Iris Flower Classification
 
-## Project Overview
+A Machine Learning application that predicts the species of an Iris flower based on four measurements using Logistic Regression.
 
-This machine learning application predicts an Iris flower's species from four measurements using Logistic Regression.
+## 📌 Project Overview
 
-## Technologies Used
+This project uses the Scikit-learn Iris dataset to classify flowers into three species:
 
-- Python
-- Scikit-learn
-- Tkinter
-- Pillow
+- Setosa
+- Versicolor
+- Virginica
 
-## Features
+It also includes a graphical user interface built with Tkinter.
 
-- Predicts Setosa, Versicolor, or Virginica.
-- Displays prediction confidence.
+## 🚀 Features
+
+- Predicts the Iris flower species.
+- Displays prediction probabilities.
 - Shows the corresponding flower image.
 - Validates user input.
-- Provides **Predict** and **Reset** buttons.
+- Includes Predict and Reset buttons.
 
-## Input Features
+## 🛠️ Technologies Used
 
-1. Sepal length
-2. Sepal width
-3. Petal length
-4. Petal width
-
-## How to Run
-
-1. Clone this repository.
-2. Install the dependencies:
-
-	```bash
-	python -m pip install scikit-learn pillow
-	```
-
-3. Run the application:
-
-	```bash
-	python iris_gui.py
-	```
-
-## Model
-
-Logistic Regression
-
-## Dataset
-
-Scikit-learn Iris Dataset
-
-## Author
-
-LIKHITA
-# Iris Flower Classification 🌸
-
-## Project Overview
-This project is a Machine Learning application that predicts the species of an Iris flower based on four measurements using Logistic Regression.
-
-## Technologies Used
 - Python
 - Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib
 - Tkinter
 - Pillow
-- Machine Learning
 
-## Features
-- Predicts Setosa, Versicolor, and Virginica.
-- Displays prediction confidence.
-- Shows the corresponding flower image.
-- Includes input validation.
-- Provides Predict and Reset buttons.
+## 📊 Input Features
 
-## Input Features
-1. Sepal Length
-2. Sepal Width
-3. Petal Length
-4. Petal Width
+1. Sepal Length (cm)
+2. Sepal Width (cm)
+3. Petal Length (cm)
+4. Petal Width (cm)
 
-## How to Run
-1. Clone the repository.
-2. Install dependencies:
-   `python -m pip install scikit-learn pillow`
-3. Run the application:
-   `python iris_gui.py`
+## 🖥️ Application Screenshot
 
-## Model
-Logistic Regression
-
-## Dataset
-Scikit-learn Iris Dataset
-
-## Author
-Your Name
-LIKHITA
 ![Iris Flower Prediction](images/iris_prediction.png)
 
+## ⚙️ How to Run
 
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/LIKHITA-design/OIBSIP.git
+```
+
+**2. Navigate to the project folder**
+
+```bash
+cd OIBSIP/DataScience-Task1-IrisFlowerClassification
+```
+
+**3. Install dependencies**
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+**4. Run the application**
+
+```bash
+python iris_gui.py
+```
+
+## 🧠 Machine Learning Model
+
+Logistic Regression
+
+## 📚 Dataset
+
+Scikit-learn Iris Dataset (150 samples, 3 species).
+
+## 👩‍💻 Author
+
+**LIKHITA**
+
+GitHub: [LIKHITA-design](https://github.com/LIKHITA-design)
